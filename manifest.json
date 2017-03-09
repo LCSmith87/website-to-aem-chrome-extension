@@ -1,0 +1,22 @@
+{
+  "manifest_version": 1,
+
+  "name": "Website to AEM",
+  "description": "Quickly switch between a website and it's AEM page and vice versa.",
+  "version": "1.0",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon19.png"
+  },
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
