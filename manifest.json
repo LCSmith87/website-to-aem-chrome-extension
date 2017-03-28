@@ -1,5 +1,5 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
 
   "name": "Website to AEM",
   "description": "Quickly switch between a website and it's AEM page and vice versa.",
